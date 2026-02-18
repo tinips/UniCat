@@ -41,7 +41,7 @@ UNICAT_/
 - **Database**: PostgreSQL (via psycopg2), SQLite for dev  
 - **Static & Media**: WhiteNoise (local), AWS S3 (via boto3 + django-storages)  
 - **Config**: python-decouple for environment variables  
-- **Deployment**: Gunicorn + production server (e.g., Heroku, Render, or AWS)
+- **Deployment**: Gunicorn + production server (AWS)
 
 ---
 ## 🧭 Main Screens
@@ -73,4 +73,4 @@ Feedback and contributions are welcome!
 
 > **Note:** This project was developed as part of my CS50W final project.  
 > Some frontend code (CSS/JS) is not fully optimized, since the main focus was learning and functionality.  
-> Future improvements may include refactoring the frontend for cleaner structure and maintainability.
+
